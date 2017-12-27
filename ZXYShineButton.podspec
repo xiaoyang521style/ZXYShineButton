@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZXYShineButton"
-  s.version      = "1.0.6"
+  s.version      = "1.0.7"
   s.summary      = "an Animate Button view on iOS."
 
   # This description is used to generate tags and improve search results.
@@ -37,8 +37,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "ZXYShineButton", "ZXYShineButton/*.{h,m}"
+  s.source_files  = "ZXYShineButton", "ZXYShineButton/*.{h,m,bundle}"
   s.exclude_files = "ZXYShineButton/ShineButton.bundle/resource/*{png}"
 
   # s.public_header_files = "Classes/**/*.h"
