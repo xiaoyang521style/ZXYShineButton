@@ -1,1 +1,2 @@
 # ZXYShineButton
+ pod 'ZXYShineButton'
