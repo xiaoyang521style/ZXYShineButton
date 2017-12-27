@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C0B7DCF1FF3F23300278AC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0B7DCE1FF3F23300278AC0 /* UIKit.framework */; };
+		0C0B7DD11FF3F24500278AC0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0B7DD01FF3F24500278AC0 /* QuartzCore.framework */; };
 		0C5F9F4B1FF3EC2200B6CA45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F9F4A1FF3EC2200B6CA45 /* AppDelegate.m */; };
 		0C5F9F511FF3EC2200B6CA45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5F9F4F1FF3EC2200B6CA45 /* Main.storyboard */; };
 		0C5F9F531FF3EC2200B6CA45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C5F9F521FF3EC2200B6CA45 /* Assets.xcassets */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C0B7DCE1FF3F23300278AC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0C0B7DD01FF3F24500278AC0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0C5F9F461FF3EC2100B6CA45 /* ZXYShineButton-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZXYShineButton-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C5F9F491FF3EC2100B6CA45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0C5F9F4A1FF3EC2200B6CA45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C0B7DD11FF3F24500278AC0 /* QuartzCore.framework in Frameworks */,
+				0C0B7DCF1FF3F23300278AC0 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +101,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C0B7DCD1FF3F23300278AC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C0B7DD01FF3F24500278AC0 /* QuartzCore.framework */,
+				0C0B7DCE1FF3F23300278AC0 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0C5F9F3D1FF3EC2100B6CA45 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +118,7 @@
 				0C5F9F611FF3EC2200B6CA45 /* ZXYShineButton-ExampleTests */,
 				0C5F9F6C1FF3EC2200B6CA45 /* ZXYShineButton-ExampleUITests */,
 				0C5F9F471FF3EC2100B6CA45 /* Products */,
+				0C0B7DCD1FF3F23300278AC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -478,7 +494,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "s.ZXYShineButton-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -492,7 +508,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "s.ZXYShineButton-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZXYShineButton"
-  s.version      = "1.0.4"
+  s.version      = "1.0.6"
   s.summary      = "an Animate Button view on iOS."
 
   # This description is used to generate tags and improve search results.
