@@ -9,4 +9,4 @@ pod 'ZXYShineButton'
 
 效果图
 -----------------------------------
-![baidu-images](http://www.baidu.com/img/bdlogo.png "baidu")  
+![baidu-images](https://github.com/xiaoyang521style/ZXYShineButton/blob/master/Resoures/ZXYShineButton.gif?raw=true)  
