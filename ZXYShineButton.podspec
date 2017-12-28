@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZXYShineButton"
-  s.version      = "1.0.7"
+  s.version      = "1.0.8"
   s.summary      = "an Animate Button view on iOS."
 
   # This description is used to generate tags and improve search results.
@@ -89,8 +89,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "ZXYShineButton", "ZXYShineButton/*.{h,m,bundle}"
-  s.exclude_files = "ZXYShineButton/ShineButton.bundle/resource/*{png}"
+  s.source_files  = "ZXYShineButton", "ZXYShineButton/*.{h,m}"
+
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -103,7 +103,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # s.resource  = "icon.png"
+   s.resource  = "ShineButton.bundle"
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
