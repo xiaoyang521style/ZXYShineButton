@@ -1,8 +1,8 @@
 
 
-#ZXYShineButton
+ZXYShineButton
 ===================================
 
-#使用方法
+使用方法
 -----------------------------------
 pod 'ZXYShineButton'
