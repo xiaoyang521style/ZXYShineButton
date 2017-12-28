@@ -25,7 +25,34 @@
     [self initLayers];
     return self;
 }
+-(instancetype)init{
+    if( [super init ]){
+        self.color = [UIColor lightGrayColor];
+        self.fillColor = [UIColor colorWithRed:255.0/255.0 green:102.0/255.0 blue:102.0/255.0 alpha:1];
+        self.image = [ZXYShineImage getImage:Heart];
+        [self initLayers];
+    }
+    return self;
+}
 
+-(instancetype)initWithFrame:(CGRect)frame{
+    if([super initWithFrame:frame]){
+        self.color = [UIColor lightGrayColor];
+        self.fillColor = [UIColor colorWithRed:255.0/255.0 green:102.0/255.0 blue:102.0/255.0 alpha:1];
+        self.image = [ZXYShineImage getImage:Heart];
+        [self initLayers];
+    }
+    return self;
+}
+-(instancetype)initWithCoder:(NSCoder *)aDecoder{
+    if([super initWithCoder:aDecoder]){
+        self.color = [UIColor lightGrayColor];
+        self.fillColor = [UIColor colorWithRed:255.0/255.0 green:102.0/255.0 blue:102.0/255.0 alpha:1];
+        self.image = [ZXYShineImage getImage:Heart];
+        [self initLayers];
+    }
+    return self;
+}
 -(ZXYShineClickLayer *)clickLayer {
     if (_clickLayer == nil) {
         _clickLayer = [[ZXYShineClickLayer alloc]init];
