@@ -10,8 +10,8 @@
 * *
  */
 #import "ZXYShineViewController.h"
-#import "ZXYShineButton.h"
-#import "ZXYShineParams.h"
+#import "ZXYShine.h"
+
 @interface ZXYShineViewController ()
 
 @end

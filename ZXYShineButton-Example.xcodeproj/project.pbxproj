@@ -72,6 +72,7 @@
 		0C5F9F861FF3EC7B00B6CA45 /* ZXYShineButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXYShineButton.m; sourceTree = "<group>"; };
 		0C5F9F871FF3EC7B00B6CA45 /* ShineButton.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShineButton.bundle; sourceTree = "<group>"; };
 		0C5F9F881FF3EC7B00B6CA45 /* ZXYShineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXYShineLayer.m; sourceTree = "<group>"; };
+		0CD1B8161FF496BB001EDA7B /* ZXYShine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXYShine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				0C5F9F7C1FF3EC7B00B6CA45 /* ZXYShineButton.h */,
+				0C5F9F861FF3EC7B00B6CA45 /* ZXYShineButton.m */,
 				0C5F9F7E1FF3EC7B00B6CA45 /* ZXYShineAngleLayer.h */,
 				0C5F9F7F1FF3EC7B00B6CA45 /* ZXYShineClickLayer.m */,
 				0C5F9F801FF3EC7B00B6CA45 /* ZXYShineParams.m */,
@@ -177,9 +179,9 @@
 				0C5F9F821FF3EC7B00B6CA45 /* ZXYShineClickLayer.h */,
 				0C5F9F831FF3EC7B00B6CA45 /* ZXYShineParams.h */,
 				0C5F9F841FF3EC7B00B6CA45 /* ZXYShineAngleLayer.m */,
-				0C5F9F861FF3EC7B00B6CA45 /* ZXYShineButton.m */,
-				0C5F9F871FF3EC7B00B6CA45 /* ShineButton.bundle */,
 				0C5F9F881FF3EC7B00B6CA45 /* ZXYShineLayer.m */,
+				0C5F9F871FF3EC7B00B6CA45 /* ShineButton.bundle */,
+				0CD1B8161FF496BB001EDA7B /* ZXYShine.h */,
 			);
 			path = ZXYShineButton;
 			sourceTree = "<group>";

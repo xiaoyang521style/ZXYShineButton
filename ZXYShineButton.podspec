@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZXYShineButton"
-  s.version      = "1.0.8"
+  s.version      = "1.0.9"
   s.summary      = "an Animate Button view on iOS."
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = "ZXYShineButton", "ZXYShineButton/*.{h,m}"
 
-
+  s.resources = "ZXYShineButton/*.{bundle}"
   # s.public_header_files = "Classes/**/*.h"
 
 
@@ -103,10 +103,8 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-   s.resource  = "ShineButton.bundle"
+  #s.resource  = "ShineButton.bundle"
   # s.resources = "Resources/*.png"
-
-  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -128,7 +126,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"

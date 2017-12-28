@@ -7,8 +7,8 @@
 //
 
 #import <QuartzCore/QuartzCore.h>
-#import "ZXYShineParams.h"
 #import <UIKit/UIKit.h>
+#import "ZXYShineParams.h"
 
 typedef void (^endAnim)(void);
 @interface ZXYShineLayer : CALayer
