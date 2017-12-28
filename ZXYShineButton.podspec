@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/xiaoyang521style/ZXYShineButton.git", :tag => "#{s.version.to_s}" }
+  s.source = { :git => "https://github.com/xiaoyang521style/ZXYShineButton.git", :tag => "#{s.version.to_s}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   s.source_files  = "ZXYShineButton", "ZXYShineButton/*.{h,m}"
 
   s.resources = "ZXYShineButton/*.{bundle}"
-  s.public_header_files = "ZXYShineButton/*.h"
+  #s.public_header_files = "ZXYShineButton/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
