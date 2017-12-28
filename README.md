@@ -1,5 +1,3 @@
-ZXYShineButton
-===================================  
-使用方法
------------------------------------  
+#ZXYShineButton
+##使用方法
  pod 'ZXYShineButton'
