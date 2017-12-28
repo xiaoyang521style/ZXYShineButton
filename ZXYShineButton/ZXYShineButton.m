@@ -72,6 +72,7 @@
 }
 -(void)setImage:(UIImage *)image {
     _image = image;
+    self.clickLayer.image = image;
 }
 -(void)setColor:(UIColor *)color {
     _color = color;
