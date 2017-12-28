@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZXYShineButton"
-  s.version      = "1.1.1"
+  s.version      = "1.1.2"
   s.summary      = "an Animate Button view on iOS."
 
   # This description is used to generate tags and improve search results.
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source = { :git => "https://github.com/xiaoyang521style/ZXYShineButton.git", :tag => "1.1.1" }
+  s.source = { :git => "https://github.com/xiaoyang521style/ZXYShineButton.git", :tag => "1.1.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
