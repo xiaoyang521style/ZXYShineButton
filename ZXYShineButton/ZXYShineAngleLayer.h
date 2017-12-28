@@ -10,8 +10,7 @@
 #import <UIKit/UIKit.h>
 #import "ZXYShineParams.h"
 @interface ZXYShineAngleLayer : CALayer
--(instancetype)initFrame:(CGRect )frame params:(ZXYShineParams *)params;
 @property(nonatomic,strong)ZXYShineParams *params;
+-(instancetype)initFrame:(CGRect )frame params:(ZXYShineParams *)params;
 -(void)startAnim;
-
 @end

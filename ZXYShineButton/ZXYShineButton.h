@@ -14,7 +14,8 @@
 @property(nonatomic, strong)UIColor *fillColor;
 @property(nonatomic, strong)UIImage *image;
 @property(nonatomic, assign)BOOL isSelected;
--(instancetype)initWithFrame:(CGRect)frame  parmas:(ZXYShineParams *)param;
 @property(nonatomic,strong)UIImage *selImg;
 @property(nonatomic,strong)UIImage *norImg;
+-(instancetype)initWithFrame:(CGRect)frame  parmas:(ZXYShineParams *)param;
+-(void)setClicked:(BOOL)clicked animated:(BOOL)animated;
 @end

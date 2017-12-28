@@ -12,7 +12,6 @@
 
 typedef void (^endAnim)(void);
 @interface ZXYShineLayer : CALayer
-
 @property(nonatomic,strong)ZXYShineParams *params;
 @property(nonatomic, strong)UIColor *fillColor;
 @property (nonatomic, copy) endAnim endAnim;

@@ -90,8 +90,6 @@
 -(void)initLayers {
     self.clickLayer.animDuration = self.params.animDuration/3;
     self.shineLayer.params = self.params;
-    self.clickLayer.frame = self.bounds;
-    self.shineLayer.frame = self.bounds;
     [self.layer addSublayer:self.clickLayer];
     [self.layer addSublayer:self.shineLayer];
 }
@@ -153,5 +151,10 @@
         self.isSelected = !weakSelf.isSelected;
         [self sendActionsForControlEvents:UIControlEventValueChanged];
     }
+}
+-(void)layoutSubviews {
+    [super layoutSubviews];
+    self.clickLayer.frame = self.bounds;
+    self.shineLayer.frame = self.bounds;
 }
 @end
