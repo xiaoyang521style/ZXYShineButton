@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   s.source_files  = "ZXYShineButton", "ZXYShineButton/*.{h,m}"
 
   s.resources = "ZXYShineButton/*.{bundle}"
-  # s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = "ZXYShineButton/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
